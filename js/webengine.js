@@ -5,7 +5,7 @@ var xmlDoc;
 			displayData(this);
 		}
 	};
-	xhttp.open("GET", "https://a.adxstudios.com/recipedo/recipes.xml", true);
+	xhttp.open("GET", "https://blueprint.nodeda.com/gallery/blueprints.xml", true);
 	xhttp.send();
 
 	function displayData(xml) {
